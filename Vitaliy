@@ -1,0 +1,31 @@
+package com.vtom.sqlcmd;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import java.sql.*;
+import java.util.Arrays;
+
+public class JDBCDatabaseManager implements Database {
+ 
+    @Override
+    public DataSet[] getTableData(String tableName) throws SQLException {
+        int size = getSize(tableName);
+        Statement statement = connection.createStatement();
+        ResultSet resultSet = statement.executeQuery("SELECT * FROM public.user");
+        ResultSetMetaData resultSetMetaData = resultSet.getMetaData();
+        DataSet[] result = new DataSet[size];
+        int index = 0;
+        while (resultSet.next()) {
+            DataSet dataSet = new DataSet();
+            result[index] = dataSet;
+            index += 1;
+            for (int i = 1; i <= resultSetMetaData.getColumnCount(); i++) {
+                dataSet.set(resultSetMetaData.getColumnName(i), resultSet.getObject(i));
+            }
+        }
+        resultSet.close();
+        statement.close();
+        return result;
+    }
+}
