@@ -2,12 +2,12 @@ What a 1 2 3 4 5 6 7 8 9
 1 2 3 4 5 6 7 8 9
 1 2 3 4 5 6 7 8 9
 1 2 3 4 5 6 7 8 9
-1 2 3 4 5 6 7 8 9
-1static IEnumerable<string> ReadFrom(string file)
-
-        while ((line = reader.ReadLine()) != null)
-        {
-            yield return line;
+var words = line.Split(' ');
+foreach (var word in words)
+{
+    yield return word + " ";
+}
+yield return Environment.NewLine;
         }
     using (var reader = File.OpenText(file))
     {
