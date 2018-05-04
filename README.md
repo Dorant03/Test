@@ -8,8 +8,8 @@ https://github.com/Dorant03/Test
 
 
 РМФ
-<p>
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MmRnMnRobWJ0bDY2cTI4Z3VxcnR1ZGgwM28gdml0YWxpay50b21vY2hrb0Bt&amp;tmsrc=vitalik.tomochko%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_uk.gif"></a>
+<p color:="#001122">
+<a target="_blank"  href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MmRnMnRobWJ0bDY2cTI4Z3VxcnR1ZGgwM28gdml0YWxpay50b21vY2hrb0Bt&amp;tmsrc=vitalik.tomochko%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_uk.gif"></a>
 </p>
 
 Українська мова
