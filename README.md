@@ -8,7 +8,7 @@ https://github.com/Dorant03/Test
 
 
 РМФ
-<p style="color:#8A2BE2">РМФ
+<p style="color:#8A2BE2"><strong>РМФ</strong><br/>
 <a target="_blank"  href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MmRnMnRobWJ0bDY2cTI4Z3VxcnR1ZGgwM28gdml0YWxpay50b21vY2hrb0Bt&amp;tmsrc=vitalik.tomochko%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_uk.gif"></a>
 </p>
 
